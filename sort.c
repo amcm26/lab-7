@@ -14,6 +14,7 @@ typedef struct
 Element bubbleSort[SIZE];
 Element selectionSort[SIZE];
 
+//Initialize
 void initializeBubbleSort(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
